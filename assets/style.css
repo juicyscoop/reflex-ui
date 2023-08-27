@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    overflow:auto;
+}
+body #fixedElement {
+    position:fixed !important;
+    position: absolute; /*ie6 */
+    bottom: 0;
+}
+
+.custom-text {
+    font-size: 2em;
+    color: blue;    
+}
